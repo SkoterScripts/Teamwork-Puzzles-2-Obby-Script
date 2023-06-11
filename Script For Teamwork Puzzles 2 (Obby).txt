@@ -1,0 +1,169 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("Scythe Master","Midnight")
+
+---Tabs
+ 
+local Tab4 = window:NewTab("Main")
+local Tab4Section = Tab4:NewSection("Free Roblox Scripts")
+local Tab4Section = Tab4:NewSection("Made By biel17125")
+local Tab4Section = Tab4:NewSection("freerobloxscripts.com")
+local Tab1 = window:NewTab("2 Players")
+local Tab1Section = Tab1:NewSection("Free Roblox Scripts")
+local Tab2 = window:NewTab("3 Players")
+local Tab2Section = Tab2:NewSection("Free Roblox Scripts")
+local Tab2Section = Tab2:NewSection("Made By biel17125")
+local Tab2Section = Tab2:NewSection("freerobloxscripts.com")
+local Tab3 = window:NewTab("4 Players")
+local Tab3Section = Tab3:NewSection("Free Roblox Scripts")
+local Tab3Section = Tab3:NewSection("Made By biel17125")
+local Tab3Section = Tab3:NewSection("freerobloxscripts.com")
+local Tab6 = window:NewTab("Misc")
+local Tab6Section = Tab6:NewSection("Free Roblox Scripts")
+local Tab6Section = Tab6:NewSection("Made By biel17125")
+local Tab6Section = Tab6:NewSection("freerobloxscripts.com")
+local Tab5 = window:NewTab("Sup")
+local Tab5Section = Tab5:NewSection("Sup is word")
+local Tab1Section = Tab1:NewSection("Made By biel17125")
+local Tab1Section = Tab1:NewSection("freerobloxscripts.com")
+ 
+---Buttons
+
+Tab1Section:NewButton("Balance","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9332, 40, -2145)
+
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9418, 53, -2249)
+end)
+
+Tab1Section:NewButton("Ascend","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8547, 28, -6153)
+end)
+
+Tab1Section:NewButton("Push","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8778, 81, -13688)
+end)
+
+Tab1Section:NewButton("Rainbow","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9772, 43, -44256)
+end)
+
+Tab1Section:NewButton("Colors","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9422, 63, -24994)
+end)
+
+Tab1Section:NewButton("Scramble","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9607, 24, -17906)
+end)
+
+Tab1Section:NewButton("Wipeout","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9502, 61, -74818)
+end)
+
+Tab1Section:NewButton("Conveyors","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-17659, 44, -74697)
+end)
+
+Tab1Section:NewButton("Split","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9393, 38, -62560)
+end)
+
+Tab1Section:NewButton("Sliced","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-41955, 110, -74905)
+end)
+
+Tab1Section:NewButton("Portals","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9497, 73, -52042)
+end)
+
+Tab1Section:NewButton("Maze","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9329, 48, -35112)
+end)
+
+Tab2Section:NewButton("Steps","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4754, 40, 249)
+end)
+
+Tab2Section:NewButton("Lasers","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4546, 54, -3565)
+end)
+
+Tab2Section:NewButton("Jumps","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4105, 50, -8560)
+end)
+
+Tab2Section:NewButton("Climb","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4714, 116, -18936)
+end)
+
+Tab2Section:NewButton("Multi","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4612, 62, -28803)
+end)
+
+Tab3Section:NewButton("Teamwork","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(365, 118, -3732)
+end)
+
+Tab3Section:NewButton("Phases","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(164, 31, -12420)
+end)
+
+Tab3Section:NewButton("Pyramid","+4 Vitórias",function()
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(252, -65, -21325)
+end)
+
+Tab4Section:NewToggle("Auto Rebirth", "gain strength automatically", function(state)
+    if state then
+_G.autorebirth = true
+while _G.autorebirth == true do
+game:GetService("ReplicatedStorage").Events.Rebirth:FireServer()
+wait(1)
+end
+    else
+_G.autorebirth = false
+end
+end)
+
+Tab6Section:NewSlider("Walkspeed", "Changes how fast you walk.", 250, 16, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Tab6Section:NewSlider("JumpPower", "Changes how fast you jump.", 250, 16, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end)
+
+Tab6Section:NewButton("Infinite Yield", "Give you infinite yield script.", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+
+Tab6Section:NewToggle("Infinite Jump", "Lets you infinitely jump", function()
+        local InfiniteJumpEnabled = true
+        game:GetService("UserInputService").JumpRequest:connect(function()
+            if InfiniteJumpEnabled then
+                game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+            end
+        end)
+    end)
+
+Tab5Section:NewButton("Keyboard","Pc Like Keyboard",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+end)
